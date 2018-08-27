@@ -1,3 +1,13 @@
+
+input {
+    width: calc(100% - 240px);
+    display: block;
+    border: 0;
+    padding: 10px;
+    font-size: 1em;
+    background-color: #c6dada;
+    color: #687F7F;
+  }
 .alert {
     background: pink;
 }

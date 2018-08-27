@@ -6,11 +6,13 @@
 
 <script>
 import Skills from './components/Skills'
+import GridComponent from './components/Grid'
 
 export default {
   name: 'app',
   components: {
-    Skills
+    Skills,
+    GridComponent
   }
 }
 </script>

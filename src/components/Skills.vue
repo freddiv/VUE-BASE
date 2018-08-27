@@ -149,15 +149,20 @@ export default {
     cancelEdit: function (appointment) {
       this.editedAppointment = null
       appointment.description = this.beforeEditCache
-    },
-
-    removeCompleted: function () {
-      this.appointments = filters.active(this.appointments)
     }
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style src="./Skills.css" scoped></style>
+<style src="./Skills.css" scoped>
+input {
+    width: calc(100% - 40px);
+    border: 0;
+    padding: 20px;
+    font-size: 1.3em;
+    background-color: #323333;
+    color: #687F7F;
+  }
+</style>
 
